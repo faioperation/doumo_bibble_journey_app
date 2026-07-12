@@ -1,0 +1,180 @@
+{
+  "home": "Home",
+  "bible": "Bibbia",
+  "journey": "Viaggio",
+  "profile": "Profilo",
+  "splash": {
+    "title": "Benvenuto in Duomo",
+    "subtitle": "Inizia il tuo percorso spirituale con Dio"
+  },
+  "login": {
+    "begin_journey": "Inizia il tuo viaggio",
+    "subtitle": "Il tuo compagno per la riflessione quotidiana\ne la crescita",
+    "email": "Email",
+    "password": "Password",
+    "remember_me": "Ricordami",
+    "forgot_password": "Password dimenticata?",
+    "login_button": "Accedi",
+    "sign_in_google": "Accedi con Google",
+    "sign_in_apple": "Accedi con Apple",
+    "no_account": "Non hai un account?",
+    "sign_up": "Registrati"
+  },
+  "otp": {
+    "check_email": "Controlla la tua email",
+    "verification_sent": "Abbiamo inviato il codice di verifica al tuo indirizzo email",
+    "enter_otp": "Inserisci il tuo OTP di 6 cifre",
+    "resend_otp": "Reinvia OTP",
+    "verify_button": "Verifica codice"
+  },
+  "forgot_password": {
+    "title": "Password dimenticata",
+    "subtitle": "Inserisci la tua email e ti invieremo un codice di verifica",
+    "email_hint": "Inserisci la tua email",
+    "send_code": "Invia codice"
+  },
+  "set_new_password": {
+    "title": "Imposta una nuova password",
+    "subtitle": "Crea una nuova password. Assicurati che sia diversa dalle precedenti",
+    "new_password": "Inserisci nuova password",
+    "confirm_password": "Conferma nuova password",
+    "password_hint": "Password",
+    "set_password_button": "Imposta password"
+  },
+  "sign_up": {
+    "full_name": "Nome completo",
+    "email": "Email",
+    "phone": "Numero di telefono",
+    "password": "Password",
+    "confirm_password": "Conferma password",
+    "login_button": "Accedi",
+    "already_account": "Hai già un account?",
+    "sign_in": "Accedi"
+  },
+  "testaments": {
+    "old": "Antico Testamento",
+    "new": "Nuovo Testamento"
+  },
+
+  "sections": {
+    "pentateuch": "La Legge (Pentateuco)",
+    "historical": "Libri storici",
+    "poetic": "Libri poetici",
+    "gospels": "I Vangeli",
+    "history": "Storia",
+    "pauline": "Lettere di Paolo"
+  },
+
+  "quiz": {
+    "title": "Quiz di oggi",
+    "completed_line": "Hai completato un passo in 'Finding Peace'!",
+
+    "q1": "Come descriveresti la tua esperienza di studio biblico finora?",
+    "q1_options": [
+      "Sono un principiante",
+      "Conosco alcune parti",
+      "L'ho studiata a fondo",
+      "Non sono sicuro"
+    ],
+
+    "q2": "Descrivi la tua relazione attuale con Dio?",
+    "q2_options": [
+      "Forte e in crescita",
+      "Ha bisogno di rinnovamento",
+      "Incerto",
+      "Altro"
+    ],
+
+    "buttons": {
+      "next": "Avanti",
+      "finish": "Finisci",
+      "continue": "Continua",
+      "retry": "Ripeti il quiz",
+      "start_quiz": "Inizia il quiz"
+    },
+
+    "score": {
+      "correct": "Corretto"
+    }
+  },
+
+  "devotion": {
+    "title": "Devozione quotidiana",
+    "scripture": "Scrittura",
+    "reflection": "Riflessione",
+    "practical": "Applicazione pratica",
+    "completed": "Devozione completata"
+  },
+  "get_started": "Inizia",
+  "already_account": "Hai già un account?",
+  "log_in": "Accedi",
+  "good_morning": "Buongiorno, Nime",
+  "daily_prayer": "Preghiera quotidiana",
+  "daily_prayer_subtitle": "Inizia la tua giornata con una preghiera guidata.",
+  "daily_devotion": "Devozione quotidiana",
+  "daily_devotion_subtitle": "Rifletti sul versetto di oggi.",
+  "todays_actions": "Azioni di oggi",
+  "todays_actions_subtitle": "Piccole azioni per far crescere la fede.",
+  "begin_journey": "Inizia un percorso",
+  "begin_journey_subtitle": "Piani guidati per la crescita.",
+  "explore_life_journeys": "Esplora i percorsi di vita",
+  "explore_life_journeys_desc": "Trova guida su temi come gratitudine, pazienza o scopo.",
+  "view_all_journeys": "Vedi tutti i percorsi",
+  "notification": "Notifica",
+  "today": "Oggi",
+  "yesterday": "Ieri",
+  "clear_all": "Cancella tutto",
+  "journey_details": "Dettagli del percorso",
+  "life_area_journey": "Percorso dell'area della vita",
+  "payment": "Pagamento",
+  "password_change": "Cambio password",
+  "enter_old_password": "Inserisci la tua vecchia password",
+  "old_password": "Vecchia password",
+  "enter_new_password": "Inserisci una nuova password",
+  "new_password": "Nuova password",
+  "re_enter_new_password": "Reinserisci la nuova password",
+  "confirm_new_password": "Conferma nuova password",
+  "done": "Fatto",
+
+  "confirm_deactivated": "Conferma disattivazione",
+  "deactivate_question": "Sei sicuro di voler disattivare il tuo account?",
+  "cancel": "Annulla",
+  "deactivated": "Disattivato",
+
+  "profile_details": "Dettagli profilo",
+  "name": "Nome",
+  "your_email": "La tua email",
+  "date_of_birth": "Data di nascita",
+  "phone": "Telefono",
+  "gender": "Genere",
+  "update": "Aggiorna",
+
+  "account": "Account",
+  "username_email": "Nome utente, Email",
+  "subscription": "Abbonamento",
+  "manage_subscription": "Gestisci abbonamento",
+
+  "account_settings": "Impostazioni account",
+  "change_language": "Cambia lingua",
+  "notifications": "Notifiche",
+  "change_password": "Cambia password",
+  "disabled_account": "Account disattivato",
+
+  "support_legal": "Supporto & Legale",
+  "help_support": "Aiuto & Supporto",
+  "terms_of_service": "Termini di servizio",
+  "privacy_policy": "Informativa sulla privacy",
+  "logout": "Esci",
+
+  "start_free_trial": "Inizia la prova gratuita di 7 giorni",
+  "go_premium": "Vai Premium",
+  "bible_journey": "Viaggio Biblico",
+  "female": "Femmina",
+  "male": "Maschio",
+  "start": "Iniziare",
+  "daily_reflection": "Riflessione Quotidiana",
+  "write_daily_reflection": "Scrivi la tua riflessione quotidiana",
+  "write_here": "Scrivi qui la tua riflessione quotidiana...",
+  "mark_as_done": "Segna come completato",
+  "quiz_details": "Dettagli del Quiz"
+}

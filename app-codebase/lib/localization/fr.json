@@ -1,0 +1,180 @@
+{
+  "home": "Accueil",
+  "bible": "Bible",
+  "journey": "Parcours",
+  "profile": "Profil",
+  "splash": {
+    "title": "Bienvenue à Duomo",
+    "subtitle": "Commencez votre parcours spirituel avec Dieu"
+  },
+  "login": {
+    "begin_journey": "Commencez votre voyage",
+    "subtitle": "Votre compagnon pour la réflexion quotidienne\net la croissance",
+    "email": "Email",
+    "password": "Mot de passe",
+    "remember_me": "Se souvenir de moi",
+    "forgot_password": "Mot de passe oublié ?",
+    "login_button": "Se connecter",
+    "sign_in_google": "Se connecter avec Google",
+    "sign_in_apple": "Se connecter avec Apple",
+    "no_account": "Vous n'avez pas de compte ?",
+    "sign_up": "S'inscrire"
+  },
+  "otp": {
+    "check_email": "Vérifiez votre email",
+    "verification_sent": "Nous avons envoyé le code de vérification à votre adresse e-mail",
+    "enter_otp": "Entrez votre code OTP à 6 chiffres",
+    "resend_otp": "Renvoyer OTP",
+    "verify_button": "Vérifier le code"
+  },
+  "forgot_password": {
+    "title": "Mot de passe oublié",
+    "subtitle": "Entrez votre email et nous vous enverrons un code de vérification",
+    "email_hint": "Entrez votre email",
+    "send_code": "Envoyer le code"
+  },
+  "set_new_password": {
+    "title": "Définir un nouveau mot de passe",
+    "subtitle": "Créez un nouveau mot de passe. Assurez-vous qu'il diffère des précédents pour la sécurité",
+    "new_password": "Entrez le nouveau mot de passe",
+    "confirm_password": "Confirmez le nouveau mot de passe",
+    "password_hint": "Mot de passe",
+    "set_password_button": "Définir le mot de passe"
+  },
+  "sign_up": {
+    "full_name": "Nom complet",
+    "email": "Email",
+    "phone": "Numéro de téléphone",
+    "password": "Mot de passe",
+    "confirm_password": "Confirmez le mot de passe",
+    "login_button": "Se connecter",
+    "already_account": "Vous avez déjà un compte ?",
+    "sign_in": "Se connecter"
+  },
+  "testaments": {
+    "old": "Ancien Testament",
+    "new": "Nouveau Testament"
+  },
+
+  "sections": {
+    "pentateuch": "La Loi (Pentateuque)",
+    "historical": "Livres historiques",
+    "poetic": "Livres poétiques",
+    "gospels": "Les Évangiles",
+    "history": "Histoire",
+    "pauline": "Lettres de Paul"
+  },
+
+  "quiz": {
+    "title": "Quiz du jour",
+    "completed_line": "Vous avez terminé une étape de 'Finding Peace' !",
+
+    "q1": "Comment décririez-vous votre expérience d'étude biblique jusqu'à présent ?",
+    "q1_options": [
+      "Je suis débutant",
+      "Je connais certaines parties",
+      "Je l'ai étudiée en profondeur",
+      "Pas sûr"
+    ],
+
+    "q2": "Décrivez votre relation actuelle avec Dieu ?",
+    "q2_options": [
+      "Forte et en croissance",
+      "A besoin de renouveau",
+      "Incertain",
+      "Autre"
+    ],
+
+    "buttons": {
+      "next": "Suivant",
+      "finish": "Terminer",
+      "continue": "Continuer",
+      "retry": "Reprendre le quiz",
+      "start_quiz": "Commencer le quiz"
+    },
+
+    "score": {
+      "correct": "Correct"
+    }
+  },
+
+  "devotion": {
+    "title": "Dévotion quotidienne",
+    "scripture": "Écriture",
+    "reflection": "Réflexion",
+    "practical": "Application pratique",
+    "completed": "Dévotion terminée"
+  },
+  "get_started": "Commencer",
+  "already_account": "Vous avez déjà un compte ?",
+  "log_in": "Se connecter",
+  "good_morning": "Bonjour, Nime",
+  "daily_prayer": "Prière quotidienne",
+  "daily_prayer_subtitle": "Commencez votre journée avec une prière guidée.",
+  "daily_devotion": "Dévotion quotidienne",
+  "daily_devotion_subtitle": "Réfléchissez aux Écritures du jour.",
+  "todays_actions": "Actions du jour",
+  "todays_actions_subtitle": "Petites tâches pour faire grandir votre foi.",
+  "begin_journey": "Commencer un parcours",
+  "begin_journey_subtitle": "Plans guidés pour votre croissance.",
+  "explore_life_journeys": "Explorer les parcours de vie",
+  "explore_life_journeys_desc": "Trouvez des conseils sur la gratitude, la patience ou le sens de la vie.",
+  "view_all_journeys": "Voir tous les parcours",
+  "notification": "Notification",
+  "today": "Aujourd'hui",
+  "yesterday": "Hier",
+  "clear_all": "Tout effacer",
+  "journey_details": "Détails du parcours",
+  "life_area_journey": "Parcours des domaines de vie",
+  "payment": "Paiement",
+  "password_change": "Changement de mot de passe",
+  "enter_old_password": "Entrez votre ancien mot de passe",
+  "old_password": "Ancien mot de passe",
+  "enter_new_password": "Entrez un nouveau mot de passe",
+  "new_password": "Nouveau mot de passe",
+  "re_enter_new_password": "Saisissez à nouveau le nouveau mot de passe",
+  "confirm_new_password": "Confirmer le nouveau mot de passe",
+  "done": "Terminé",
+
+  "confirm_deactivated": "Confirmer la désactivation",
+  "deactivate_question": "Êtes-vous sûr de vouloir désactiver votre compte ?",
+  "cancel": "Annuler",
+  "deactivated": "Désactivé",
+
+  "profile_details": "Détails du profil",
+  "name": "Nom",
+  "your_email": "Votre email",
+  "date_of_birth": "Date de naissance",
+  "phone": "Téléphone",
+  "gender": "Genre",
+  "update": "Mettre à jour",
+
+  "account": "Compte",
+  "username_email": "Nom d'utilisateur, Email",
+  "subscription": "Abonnement",
+  "manage_subscription": "Gérer l'abonnement",
+
+  "account_settings": "Paramètres du compte",
+  "change_language": "Changer de langue",
+  "notifications": "Notifications",
+  "change_password": "Changer le mot de passe",
+  "disabled_account": "Compte désactivé",
+
+  "support_legal": "Support & Légal",
+  "help_support": "Aide & Support",
+  "terms_of_service": "Conditions d'utilisation",
+  "privacy_policy": "Politique de confidentialité",
+  "logout": "Se déconnecter",
+
+  "start_free_trial": "Commencer l’essai gratuit de 7 jours",
+  "go_premium": "Passer à Premium",
+  "bible_journey": "Voyage Biblique",
+  "female": "Femme",
+  "male": "Homme",
+  "start": "Commencer",
+  "daily_reflection": "Réflexion Quotidienne",
+  "write_daily_reflection": "Écrivez votre réflexion quotidienne",
+  "write_here": "Écrivez votre réflexion quotidienne ici...",
+  "mark_as_done": "Marquer comme fait",
+  "quiz_details": "Détails du Quiz"
+}

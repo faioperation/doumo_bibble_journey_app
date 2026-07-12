@@ -1,0 +1,184 @@
+{
+  "home": "Home",
+  "bible": "Bible",
+  "journey": "Journey",
+  "profile": "Profile",
+  "splash": {
+    "title": "Find Your Peace",
+    "subtitle": "Daily Devotionals, Bible study, and moments of reflection"
+  },
+
+  "login": {
+    "begin_journey": "Begin Your Journey",
+    "subtitle": "Your companion daily reflection\nand Growth",
+    "email": "Email",
+    "password": "Password",
+    "remember_me": "Remember me",
+    "forgot_password": "Forgot password?",
+    "login_button": "Log in",
+    "sign_in_google": "Sign in with Google",
+    "sign_in_apple": "Sign in with Apple",
+    "no_account": "Don’t have an account?",
+    "sign_up": "Sign up"
+  },
+  "otp": {
+    "check_email": "Check Your Email",
+    "verification_sent": "We have sent the verification code to your email address",
+    "enter_otp": "Enter your 6 digit OTP",
+    "resend_otp": "Resend OTP",
+    "verify_button": "Verify Code"
+  },
+  "forgot_password": {
+    "title": "Forgot Password",
+    "subtitle": "Enter your email and we will send you a verification code",
+    "email_hint": "Enter Your Email",
+    "send_code": "Send Code"
+  },
+  "set_new_password": {
+    "title": "Set a new password",
+    "subtitle": "Create a new password. Ensure it differs from previous ones for security",
+    "new_password": "Enter New Password",
+    "confirm_password": "Confirm New Password",
+    "password_hint": "Password",
+    "set_password_button": "Set Password"
+  },
+  "sign_up": {
+    "full_name": "Full Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "login_button": "Log in",
+    "already_account": "Already have an account?",
+    "sign_in": "Sign In"
+  },
+  "testaments": {
+    "old": "Old Testament",
+    "new": "New Testament"
+  },
+
+  "sections": {
+    "pentateuch": "The Law (Pentateuch)",
+    "historical": "Historical Books",
+    "poetic": "Poetic Books",
+    "gospels": "The Gospels",
+    "history": "History",
+    "pauline": "Paul's Letters"
+  },
+
+  "quiz": {
+    "title": "Today's Quiz",
+    "completed_line": "You've completed a step in 'Finding Peace'!",
+
+    "q1": "How would you describe your Bible study experience so far?",
+    "q1_options": [
+      "I'm a beginner",
+      "I know some parts",
+      "I've studied it deeply",
+      "Not sure"
+    ],
+
+    "q2": "Describe your current relationship with God?",
+    "q2_options": [
+      "Strong and growing",
+      "In need of renewal",
+      "Unsure",
+      "Other"
+    ],
+
+    "buttons": {
+      "next": "Next",
+      "finish": "Finish",
+      "continue": "Continue",
+      "retry": "Retry Quiz",
+      "start_quiz": "Start Quiz"
+    },
+
+    "score": {
+      "correct": "Correct"
+    }
+  },
+
+  "devotion": {
+    "title": "Daily Devotion",
+    "scripture": "Scripture",
+    "reflection": "Reflection",
+    "practical": "Practical Application",
+    "completed": "Completed Devotion"
+  },
+
+  "get_started": "Get Started",
+  "already_account": "Already have an account?",
+  "log_in": "Log in",
+  "good_morning": "Good Morning, Nime",
+  "daily_prayer": "Daily Prayer",
+  "daily_prayer_subtitle": "Start your day with a guided prayer.",
+  "daily_devotion": "Daily Devotion",
+  "daily_devotion_subtitle": "Reflect on today's scripture.",
+  "todays_actions": "Today's Actions",
+  "todays_actions_subtitle": "Small tasks to grow faith.",
+  "begin_journey": "Begin a Journey",
+  "begin_journey_subtitle": "Guided plans for growth.",
+  "explore_life_journeys": "Explore Life Journeys",
+  "explore_life_journeys_desc": "Find guidance on topics like gratitude, patience, or purpose.",
+  "view_all_journeys": "View All Journeys",
+  "notification": "Notification",
+  "today": "Today",
+  "yesterday": "Yesterday",
+  "clear_all": "Clear All",
+  "journey_details": "Journey Details",
+  "life_area_journey": "Life Area Journey",
+  "payment": "Payment",
+  "password_change": "Password Change",
+  "enter_old_password": "Enter Your Old Password",
+  "old_password": "Old password",
+  "enter_new_password": "Enter a New Password",
+  "new_password": "New password",
+  "re_enter_new_password": "Re-enter Your New Password",
+  "confirm_new_password": "Confirm new password",
+  "done": "Done",
+
+  "confirm_deactivated": "Confirm Deactivated",
+  "deactivate_question": "Are you sure you want to deactivate your Account?",
+  "cancel": "Cancel",
+  "deactivated": "Deactivated",
+
+  "profile_details": "Profile Details",
+  "name": "Name",
+  "your_email": "Your Email",
+  "date_of_birth": "Date of Birth",
+  "phone": "Phone",
+  "gender": "Gender",
+  "update": "Update",
+
+  "account": "Account",
+  "username_email": "Username, Email",
+  "subscription": "Subscription",
+  "manage_subscription": "Manage Subscription",
+
+  "account_settings": "Account Settings",
+  "change_language": "Change Language",
+  "notifications": "Notifications",
+  "change_password": "Change Password",
+  "disabled_account": "Disabled Account",
+
+  "support_legal": "Support & Legal",
+  "help_support": "Help & Support",
+  "terms_of_service": "Terms of Service",
+  "privacy_policy": "Privacy Policy",
+  "logout": "Log Out",
+
+  "start_free_trial": "Start 7-Day Free Trial",
+  "go_premium": "Go Premium",
+  "bible_journey": "Bible Journey",
+  "female": "Female",
+  "male": "Male",
+  "start": "Start",
+  "daily_reflection": "Daily Reflection",
+  "write_daily_reflection": "Write your Daily Reflection",
+  "write_here": "Write your Daily reflection here...",
+  "mark_as_done": "Mark as Done",
+  "quiz_details": "Quiz Details"
+
+}
+
