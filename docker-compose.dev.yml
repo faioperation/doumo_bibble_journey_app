@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  db:
+    ports:
+      - "5432:5432"
+
+  redis:
+    ports:
+      - "6379:6379"
+
+  web:
+    command: python manage.py runserver 0.0.0.0:8000
+    environment:
+      - DEBUG=True
+      - COLLECT_STATIC=false
+      - RUN_MIGRATIONS=true
+    volumes:
+      - ./backend:/app
+    ports:
+      - "8000:8000"
+
+  asgi:
+    command: daphne -b 0.0.0.0 -p 8001 bibble_project.asgi:application
+    environment:
+      - DEBUG=True
+      - COLLECT_STATIC=false
+      - RUN_MIGRATIONS=false
+    volumes:
+      - ./backend:/app
+    ports:
+      - "8001:8001"
+
+  scheduler:
+    environment:
+      - DEBUG=True
+    volumes:
+      - ./backend:/app

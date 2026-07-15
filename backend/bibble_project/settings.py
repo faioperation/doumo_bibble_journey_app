@@ -22,18 +22,24 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-^_ew)$#_y+o_i6cx@_=tqc&2_r=s*z%=du3w@f65eyl@95%=4b'
+# Load environment variables early (already done near bottom, but let's read them dynamically)
+# We will use variables loaded by load_dotenv which runs below, or environment variables set by Docker.
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-^_ew)$#_y+o_i6cx@_=tqc&2_r=s*z%=du3w@f65eyl@95%=4b')
 
-ALLOWED_HOSTS = [
-    "apps.biblejourney.pro",
-    "www.apps.biblejourney.pro",
-    "localhost",
-    "127.0.0.1",
-    "23.26.207.33",
-]
+DEBUG = os.getenv('DEBUG', 'False').lower() in ('true', '1', 't')
+
+env_hosts = os.getenv('ALLOWED_HOSTS')
+if env_hosts:
+    ALLOWED_HOSTS = [h.strip() for h in env_hosts.split(',')]
+else:
+    ALLOWED_HOSTS = [
+        "apps.biblejourney.pro",
+        "www.apps.biblejourney.pro",
+        "localhost",
+        "127.0.0.1",
+        "23.26.207.33",
+    ]
 
 
 # Application definition
@@ -63,10 +69,11 @@ ASGI_APPLICATION = "bibble_project.asgi.application"
 # =========================
 # CACHE CONFIGURATION (REDIS)
 # =========================
+REDIS_URL = os.getenv("REDIS_URL", "redis://127.0.0.1:6379/1")
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://127.0.0.1:6379/1",
+        "LOCATION": REDIS_URL,
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         },
@@ -136,12 +143,26 @@ WSGI_APPLICATION = 'bibble_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+DB_ENGINE = os.getenv('DB_ENGINE', 'sqlite')
+if DB_ENGINE == 'postgresql':
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': os.getenv('DB_NAME', 'postgres'),
+            'USER': os.getenv('DB_USER', 'postgres'),
+            'PASSWORD': os.getenv('DB_PASSWORD', 'postgres'),
+            'HOST': os.getenv('DB_HOST', 'db'),
+            'PORT': os.getenv('DB_PORT', '5432'),
+        }
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
+
 
 
 # Password validation
